@@ -14,7 +14,7 @@ export default class Monna extends Component {
     return (
       <div>
         <h1>monna Component hello</h1>
-        <h1>{this.props.myString2}</h1>
+         
         <h1>{this.state.counter}</h1>
         <button onClick={this.onIcrement}>+</button>
         <button onClick={this.onDecrement}>-</button>
